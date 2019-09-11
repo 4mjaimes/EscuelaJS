@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>404</title>
+
+  <style>
+    body{
+      margin: 0;
+      font-family: 'Muli', sans-serif;
+    }
+    .header {
+      align-items: center;
+      background: #21C08B;
+      color: white;
+      display: flex;
+      height: 100px;
+      justify-content: space-between;
+      top: 0px;
+      width: 100%;
+    }
+
+  .header__img {
+    margin-left: 30px;
+    width: 200px;
+  }
+
+  .error{
+    background: linear-gradient(#21C08B, #AB88FF);
+    width: 100%;
+  }
+
+  .error__container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+  }
+
+  .error__container--title{
+    font-size: 80px;
+    margin-bottom: 10px;
+    letter-spacing: 4px;
+  }
+
+  .footer{
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #AB88FF;
+    justify-content: space-around;
+  }
+
+  .footer a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .footer a:hover{
+    text-decoration: underline;
+  }
+  </style>
+  
+</head>
+<body>
+  <header class="header">
+    <img class="header__img" src="./assets/logo-platzi-video-BW2.png" alt="Platzi Video">
+  </header>
+
+  <section class="error">
+    <section class="error__container">
+      <h1 class="error__container--title">404</h1>
+      <p class="error__container--description">Página no encontrada</p>
+    </section>
+  </section>
+
+  <footer class="footer">
+    <a href="/">Terminos de uso</a>
+    <a href="/">Declaración de privacidad</a>
+    <a href="/">Centro de ayuda</a>
+  </footer>
+
+</body>
+</html>
